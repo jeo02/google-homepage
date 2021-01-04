@@ -6,18 +6,18 @@
 
 <body>
     <header>
-        <div class = "leftNav">
-            <ul>
+        <ul>
+            <div class = "left">
                 <li>
                     <a href = "https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
                 </li>
                 <li>
                     <a href = "https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
                 </li>
-            </ul>
-        </div>
-        <div class = "rightNav">
-            <ul>
+            </div>
+                
+            
+            <div class = "right">
                 <li>
                     <a href = "https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
                 </li>
@@ -30,8 +30,8 @@
                 <li>
                     <a href = "https://accounts.google.com/login"><img id = "profile" src="https://icon-library.com/images/sign-in-with-google-icon/sign-in-with-google-icon-3.jpg" alt="Google sign in."></a>
                 </li>
-            </ul>
-        </div>
+            </div>
+        </ul>
     </header>
     
     <main class = "image">
@@ -39,20 +39,41 @@
     </main>
         
     <form>
+        <img id = "search" src = "data:image/png;base64,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"></img>
         <input type = "text"> 
-        <button type = "button" class = "mic"></button>
-        <button type = "button" class = "search"></button>
+        <img id = "microphone" src = "https://i.imgur.com/l5S4LZ2.png"></img>
     </form>
 
-    <ul>
-        <li>
-            <a class = "searchbutton">Google Search</a>
-        </li>
-        <li>
-            <a class = "searchbutton">I'm Feeling Lucky</a>
-        </li>
-    </ul>
+    <button type = "button" class = "mic">Google Search</button>
+    <button type = "button" class = "search">I'm Feeling Lucky</button>
+    
 
 
 </body>
+<footer>
+    <ul id = "foot">
+        <div class = "left">
+            <li>
+                <a href = "https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a>
+            </li>
+            <li>
+                <a href = "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Buisness</a>
+            </li>
+            <li>
+                <a href = "https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
+            </li>
+        </div>
+        <div class = "right">
+            <li>
+                <a href = "https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+            </li>
+            <li>
+                <a href = "https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            </li>
+            <li>
+                <a href = "https://www.google.com/preferences?hl=en">Settings</a>
+            </li>
+        </div>
+    </ul>
+</footer>
 </html>
