@@ -54,8 +54,9 @@ button{
 }
 
 footer{
+    margin-left: -10px;
     height: 30px;
-    background-color: lightgrey;
+    background-color: rgb(245, 245, 245);;
     position: absolute;
     bottom: 0px;
     width: 100%;
