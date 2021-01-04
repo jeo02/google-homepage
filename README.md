@@ -1,0 +1,1 @@
+In this repository I attempt to make a simple replica of the google home page, nothing to complicated.

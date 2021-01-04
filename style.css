@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: inline;
+    vertical-align: middle;
+}
+li a{
+    
+    padding: 10px;
+    text-decoration: none;
+}
+.leftNav{
+    float: left;
+}
+.rightNav{
+    float: right;
+}
+#apps{
+    width: 20px;
+    height: 20px;
+}
+#profile{
+    height: 20px;
+    width: auto;
+}              
